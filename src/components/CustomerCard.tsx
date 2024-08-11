@@ -3,7 +3,10 @@ import React from 'react';
 interface Customer {
   id: number;
   name: string;
+  address: string;
   title: string;
+  imageId: number;
+
 }
 
 interface Props {

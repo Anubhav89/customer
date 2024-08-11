@@ -3,6 +3,9 @@ export interface Customer {
     name: string;
     title: string;
     address: string;
+    imageId: number;
+
+
   }
   
   export interface Photo {
